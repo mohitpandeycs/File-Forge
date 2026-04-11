@@ -3,4 +3,4 @@ Allow: /
 Disallow: /auth/
 Disallow: /history
 
-Sitemap: https://fileforge.app/sitemap.xml
+Sitemap: https://myfile-forge.vercel.app/sitemap.xml
