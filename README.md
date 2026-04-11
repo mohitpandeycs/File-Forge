@@ -12,6 +12,16 @@
 	Fast • Private • Simple
 </p>
 
+<p align="center">
+  <a href="https://github.com/mohitpandeycs" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT License" />
+  </a>
+
+  <a href="https://github.com/mohitpandeycs" target="_blank">
+    <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" />
+  </a>
+</p>
+
 ## Overview
 
 FileForge is a modern web app built with Next.js that provides practical file conversion utilities in a clean interface.
@@ -33,12 +43,14 @@ Core experience:
 
 ## Tech Stack
 
-1. Next.js 16 (App Router)
-2. React 19 + TypeScript
-3. Tailwind CSS 4
-4. Zustand (state)
-5. Supabase (auth + persisted history)
-6. Conversion libraries: pdf-lib, xlsx, mammoth, marked, heic2any, jszip
+| Layer | Technology |
+|---|---|
+| **Framework** | Next.js 16 (App Router) |
+| **Language** | TypeScript + React 19 |
+| **Styling** | Tailwind CSS 4 |
+| **State** | Zustand |
+| **Auth + History** | Supabase |
+| **Conversion** | `pdf-lib`, `xlsx`, `mammoth`, `marked`, `heic2any`, `jszip` |
 
 ## Project Structure
 
@@ -83,7 +95,7 @@ GOOGLE_SITE_VERIFICATION=optional_google_verification_token
 npm run dev
 ```
 
-Open http://localhost:3000
+Open : http://localhost:3000
 
 ## Available Scripts
 
@@ -96,14 +108,16 @@ npm run lint     # Run ESLint
 
 ## Main Routes
 
-1. `/` Home
-2. `/tools` All conversion tools
-3. `/convert/[tool]` Dynamic conversion pages
-4. `/pdf-tools` PDF utility suite
-5. `/compress` Image compression tool
-6. `/base64` Base64 encode/decode tool
-7. `/history` Conversion history
-8. `/auth/login` Authentication
+| Route | Description |
+|---|---|
+| `/` | Home |
+| `/tools` | All conversion tools |
+| `/convert/[tool]` | Dynamic conversion pages |
+| `/pdf-tools` | PDF utility suite |
+| `/compress` | Image compression tool |
+| `/base64` | Base64 encode / decode |
+| `/history` | Conversion history (auth required) |
+| `/auth/login` | Authentication |
 
 ## Deployment
 
@@ -125,6 +139,26 @@ After deployment, verify:
 2. Supabase is required for auth and synced conversion history.
 3. Keep environment keys out of source control.
 
+## Connect With Me :)
+
+Built and maintained by **[Mohit Pandey](https://github.com/mohitpandeycs)**
+
+- GitHub — [@mohitpandeycs](https://github.com/mohitpandeycs)
+- LinkedIn — [in/mohitpandeycs](https://linkedin.com/in/mohitpandeycs)
+- Twitter / X — [@mohitpandeycs](https://x.com/mohitpandeycs)
+
+Found a bug? [Open an issue](https://github.com/mohitpandeycs/File-Forge/issues).
+
+
 ## License
 
-This project is currently private. Add a license file if you plan to open-source it.
+This project is released under the MIT License.
+
+
+---
+
+<p align="center">
+  If FileForge saves you time, consider giving it a ⭐ — it helps other developers find the project.
+</p>
+
+
