@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FileForge logo mark">
+  <defs>
+    <linearGradient id="forge-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#forge-gradient)" />
+  <path d="M78 68h104v32h-66v28h54v30h-54v58H78V68z" fill="#0A0A0A" />
+  <path d="M182 68h24l-18 36h-22l16-36z" fill="#0A0A0A" opacity="0.85" />
+</svg>
